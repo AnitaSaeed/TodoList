@@ -1,0 +1,104 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px !important;
+    
+}
+.bord{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+    
+}
+
+.main{
+     
+    
+    
+    height:80vh;
+    width: 85%;
+    background-color: #006d77;
+    border-radius: 15px;
+}
+#header{
+    margin: 50px;
+}
+
+#title{
+    margin-top: 5px;
+    text-align: center;
+    color: #fca311;
+}
+#add{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #fca311;
+    color: #006d77;
+
+}
+#task_bord{
+    
+    background-color: #ffffff81;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #fca311;
+    height: 70%;
+    margin: 50px;
+    color: #006d77;
+    overflow-y: auto;
+    
+   
+}
+.task_row{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    
+    border-bottom-style: solid;
+    border-color: #fca311;
+    margin: 1px;
+    
+}
+.del{
+    background-color: #e63946;
+    color: #d3e5ec;
+
+}
+.text{
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 999px) {
+
+  #task_bord{
+      height: 60%;
+  }
+}
+@media only screen and (max-width: 770px) {
+    #add_col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #header{
+        margin: 0px;
+    }
+    #add{
+        
+        margin-top: 10px;
+        
+    }
+}
